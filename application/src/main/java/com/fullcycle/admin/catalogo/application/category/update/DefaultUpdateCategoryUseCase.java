@@ -16,7 +16,7 @@ public class DefaultUpdateCategoryUseCase extends UpdateCategoryUseCase {
 
     private final CategoryGateway categoryGateway;
 
-    private DefaultUpdateCategoryUseCase(final CategoryGateway categoryGateway) {
+    public DefaultUpdateCategoryUseCase(final CategoryGateway categoryGateway) {
         this.categoryGateway = categoryGateway;
     }
 
